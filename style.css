@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkslategray;
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.jokesBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  border: 8px solid red;
+  background-color: black;
+  border-radius: 5px;
+}
+button {
+  margin-top: 2rem;
+  width: 200px;
+  color: red;
+  font-weight: bolder;
+  background-color: black;
+  height: 30px;
+  border-radius: 5px;
+}
+
+h3 {
+  color: red;
+}
